@@ -1,0 +1,31 @@
+[
+  {
+    "core_transaction_id": "TXN2026082000123456",
+    "rail_reference": "RAAST-REF-000123456",
+    "artifact_type": "response_code",
+    "timestamp": "2026-08-20T09:14:04.900000",
+    "raw_payload": {"status": "success", "response_code": "00", "meaning": "approved", "rrn": "000123456"}
+  },
+  {
+    "core_transaction_id": "TXN2026082000123456",
+    "rail_reference": "RAAST-REF-000123456",
+    "artifact_type": "beneficiary_ack",
+    "timestamp": "2026-08-20T09:14:05.400000",
+    "raw_payload": {"status": "success", "beneficiary_bank": "HBL", "beneficiary_status": "credited"}
+  },
+
+  {
+    "core_transaction_id": "TXN2026082000123460",
+    "rail_reference": "RAAST-REF-000123460",
+    "artifact_type": "response_code",
+    "timestamp": "2026-08-20T15:30:03.600000",
+    "raw_payload": {"status": "success", "response_code": "00", "meaning": "approved", "rrn": "000123460"}
+  },
+  {
+    "core_transaction_id": "TXN2026082000123460",
+    "rail_reference": "RAAST-REF-000123460",
+    "artifact_type": "beneficiary_ack",
+    "timestamp": "2026-08-20T15:30:04.150000",
+    "raw_payload": {"status": "success", "beneficiary_bank": "MEZAN", "beneficiary_status": "credited"}
+  }
+]

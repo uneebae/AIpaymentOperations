@@ -1,0 +1,118 @@
+[
+  {
+    "core_transaction_id": "TXN2026082000123456",
+    "rail_reference": "RAAST-REF-000123456",
+    "session_id": "SESS-A1001",
+    "artifact_type": "channel_request",
+    "timestamp": "2026-08-20T09:14:01.102000",
+    "raw_payload": {"status": "success", "channel": "mobile_app", "device_id": "AND-9F21", "customer_msisdn_hash": "sha256:4b21...c9", "amount": 15000, "currency": "PKR"}
+  },
+  {
+    "core_transaction_id": "TXN2026082000123456",
+    "rail_reference": "RAAST-REF-000123456",
+    "session_id": "SESS-A1001",
+    "artifact_type": "auth_event",
+    "timestamp": "2026-08-20T09:14:02.340000",
+    "raw_payload": {"status": "success", "auth_method": "biometric+pin", "token_id": "tok_a1b2c3"}
+  },
+  {
+    "core_transaction_id": "TXN2026082000123456",
+    "rail_reference": "RAAST-REF-000123456",
+    "session_id": "SESS-A1001",
+    "artifact_type": "api_call",
+    "timestamp": "2026-08-20T09:14:03.010000",
+    "raw_payload": {"status": "success", "endpoint": "/v1/raast/p2p/transfer", "http_status": 200, "amount": 15000, "currency": "PKR"}
+  },
+
+  {
+    "core_transaction_id": "TXN2026082000123457",
+    "rail_reference": "RAAST-REF-000123457",
+    "session_id": "SESS-A1002",
+    "artifact_type": "channel_request",
+    "timestamp": "2026-08-20T10:02:11.500000",
+    "raw_payload": {"status": "success", "channel": "mobile_app", "device_id": "IOS-77BB", "customer_msisdn_hash": "sha256:91ac...4f", "amount": 42000, "currency": "PKR"}
+  },
+  {
+    "core_transaction_id": "TXN2026082000123457",
+    "rail_reference": "RAAST-REF-000123457",
+    "session_id": "SESS-A1002",
+    "artifact_type": "auth_event",
+    "timestamp": "2026-08-20T10:02:12.220000",
+    "raw_payload": {"status": "success", "auth_method": "pin", "token_id": "tok_d4e5f6"}
+  },
+  {
+    "core_transaction_id": "TXN2026082000123457",
+    "rail_reference": "RAAST-REF-000123457",
+    "session_id": "SESS-A1002",
+    "artifact_type": "api_call",
+    "timestamp": "2026-08-20T10:02:12.910000",
+    "raw_payload": {"status": "success", "endpoint": "/v1/raast/p2p/transfer", "http_status": 200, "amount": 42000, "currency": "PKR"}
+  },
+
+  {
+    "core_transaction_id": "TXN2026082000123458",
+    "rail_reference": "RAAST-REF-000123458",
+    "session_id": "SESS-A1003",
+    "artifact_type": "channel_request",
+    "timestamp": "2026-08-20T11:41:05.220000",
+    "raw_payload": {"status": "success", "channel": "web_portal", "device_id": "WEB-CHR-118", "customer_msisdn_hash": "sha256:cc02...11", "amount": 250000, "currency": "PKR"}
+  },
+  {
+    "core_transaction_id": "TXN2026082000123458",
+    "rail_reference": "RAAST-REF-000123458",
+    "session_id": "SESS-A1003",
+    "artifact_type": "auth_event",
+    "timestamp": "2026-08-20T11:41:06.005000",
+    "raw_payload": {"status": "success", "auth_method": "otp+pin", "token_id": "tok_g7h8i9"}
+  },
+  {
+    "core_transaction_id": "TXN2026082000123458",
+    "rail_reference": "RAAST-REF-000123458",
+    "session_id": "SESS-A1003",
+    "artifact_type": "api_call",
+    "timestamp": "2026-08-20T11:41:06.640000",
+    "raw_payload": {"status": "success", "endpoint": "/v1/raast/p2p/transfer", "http_status": 200, "amount": 250000, "currency": "PKR"}
+  },
+
+  {
+    "core_transaction_id": "TXN2026082000123459",
+    "rail_reference": "RAAST-REF-000123459",
+    "session_id": "SESS-A1004",
+    "artifact_type": "channel_request",
+    "timestamp": "2026-08-20T13:07:44.010000",
+    "raw_payload": {"status": "success", "channel": "mobile_app", "device_id": "AND-3C90", "customer_msisdn_hash": "sha256:0e5a...b7", "amount": 8000, "currency": "PKR"}
+  },
+  {
+    "core_transaction_id": "TXN2026082000123459",
+    "rail_reference": "RAAST-REF-000123459",
+    "session_id": "SESS-A1004",
+    "artifact_type": "auth_event",
+    "timestamp": "2026-08-20T13:07:45.775000",
+    "raw_payload": {"status": "expired", "auth_method": "pin", "token_id": "tok_j0k1l2", "reason": "session_token_expired_mid_flow"}
+  },
+
+  {
+    "core_transaction_id": "TXN2026082000123460",
+    "rail_reference": "RAAST-REF-000123460",
+    "session_id": "SESS-A1005",
+    "artifact_type": "channel_request",
+    "timestamp": "2026-08-20T15:30:00.400000",
+    "raw_payload": {"status": "success", "channel": "mobile_app", "device_id": "IOS-55DD", "customer_msisdn_hash": "sha256:7f31...2a", "amount": 60000, "currency": "PKR"}
+  },
+  {
+    "core_transaction_id": "TXN2026082000123460",
+    "rail_reference": "RAAST-REF-000123460",
+    "session_id": "SESS-A1005",
+    "artifact_type": "auth_event",
+    "timestamp": "2026-08-20T15:30:01.150000",
+    "raw_payload": {"status": "success", "auth_method": "biometric+pin", "token_id": "tok_m3n4o5"}
+  },
+  {
+    "core_transaction_id": "TXN2026082000123460",
+    "rail_reference": "RAAST-REF-000123460",
+    "session_id": "SESS-A1005",
+    "artifact_type": "api_call",
+    "timestamp": "2026-08-20T15:30:01.900000",
+    "raw_payload": {"status": "success", "endpoint": "/v1/raast/p2p/transfer", "http_status": 200, "amount": 60000, "currency": "PKR"}
+  }
+]

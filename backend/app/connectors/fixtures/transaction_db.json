@@ -1,0 +1,54 @@
+[
+  {
+    "core_transaction_id": "TXN2026082000123456",
+    "rail_reference": "RAAST-REF-000123456",
+    "artifact_type": "db_row",
+    "timestamp": "2026-08-20T09:14:03.050000",
+    "raw_payload": {"status": "success", "table": "payment_initiation", "amount": 15000, "currency": "PKR", "originator_account": "PK00-HBL-0001-4521"}
+  },
+  {
+    "core_transaction_id": "TXN2026082000123456",
+    "rail_reference": "RAAST-REF-000123456",
+    "artifact_type": "db_row",
+    "timestamp": "2026-08-20T09:14:05.900000",
+    "raw_payload": {"status": "success", "table": "ledger_posting", "debit_posted": true, "credit_confirmed": true, "amount": 15000}
+  },
+
+  {
+    "core_transaction_id": "TXN2026082000123457",
+    "rail_reference": "RAAST-REF-000123457",
+    "artifact_type": "db_row",
+    "timestamp": "2026-08-20T10:02:12.950000",
+    "raw_payload": {"status": "success", "table": "payment_initiation", "amount": 42000, "currency": "PKR", "originator_account": "PK00-HBL-0002-7788"}
+  },
+  {
+    "core_transaction_id": "TXN2026082000123457",
+    "rail_reference": "RAAST-REF-000123457",
+    "artifact_type": "db_row",
+    "timestamp": "2026-08-20T10:02:43.100000",
+    "raw_payload": {"status": "pending", "table": "ledger_posting", "debit_posted": true, "credit_confirmed": false, "amount": 42000, "note": "debit hold active — awaiting rail confirmation that never arrived"}
+  },
+
+  {
+    "core_transaction_id": "TXN2026082000123458",
+    "rail_reference": "RAAST-REF-000123458",
+    "artifact_type": "db_row",
+    "timestamp": "2026-08-20T11:41:06.700000",
+    "raw_payload": {"status": "success", "table": "payment_initiation", "amount": 250000, "currency": "PKR", "originator_account": "PK00-HBL-0003-3391"}
+  },
+
+  {
+    "core_transaction_id": "TXN2026082000123460",
+    "rail_reference": "RAAST-REF-000123460",
+    "artifact_type": "db_row",
+    "timestamp": "2026-08-20T15:30:02.000000",
+    "raw_payload": {"status": "success", "table": "payment_initiation", "amount": 60000, "currency": "PKR", "originator_account": "PK00-HBL-0004-6620"}
+  },
+  {
+    "core_transaction_id": "TXN2026082000123460",
+    "rail_reference": "RAAST-REF-000123460",
+    "artifact_type": "db_row",
+    "timestamp": "2026-08-20T15:30:04.500000",
+    "raw_payload": {"status": "success", "table": "ledger_posting", "debit_posted": true, "credit_confirmed": true, "amount": 60000}
+  }
+]

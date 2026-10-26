@@ -1,0 +1,9 @@
+[
+  {
+    "core_transaction_id": "TXN2026082000123456",
+    "rail_reference": "RAAST-REF-000123456",
+    "artifact_type": "recon_entry",
+    "timestamp": "2026-08-20T23:59:59.000000",
+    "raw_payload": {"status": "matched", "settlement_batch": "EOD-2026-08-20", "debit_leg": "confirmed", "credit_leg": "confirmed"}
+  }
+]

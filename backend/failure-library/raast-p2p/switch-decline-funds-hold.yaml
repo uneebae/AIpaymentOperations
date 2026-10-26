@@ -1,0 +1,14 @@
+id: switch-decline-funds-hold
+label: "Switch declined — funds-hold confirmation mismatch with core banking"
+rail: raast_p2p
+break_stage: payment_switch
+signature:
+  break_type: contradictory_status
+  status_contains: "insufficient_funds"
+typical_recommendation: >
+  Check core banking's funds-hold response for this reference against the
+  switch's decline reason. This pattern usually indicates a timing race
+  between the hold placement and the switch's balance check rather than a
+  genuinely insufficient balance — verify actual available balance before
+  telling the customer the transfer failed for that reason.
+seed_source: "internal incident history"

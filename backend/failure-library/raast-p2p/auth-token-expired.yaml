@@ -1,0 +1,13 @@
+id: auth-token-expired
+label: "Session/auth token expired mid-flow, before payment initiation"
+rail: raast_p2p
+break_stage: authentication
+signature:
+  break_type: contradictory_status
+  status_contains: "expired"
+typical_recommendation: >
+  No funds movement occurred — the flow broke before payment initiation.
+  No reversal is needed. Recommend the customer retry the transfer; if this
+  pattern recurs for the same device/channel, escalate to the channel team
+  to check token TTL configuration against typical customer flow duration.
+seed_source: "internal incident history"

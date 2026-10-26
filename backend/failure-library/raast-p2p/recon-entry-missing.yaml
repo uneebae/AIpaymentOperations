@@ -1,0 +1,14 @@
+id: recon-entry-missing
+label: "Ledger posting confirmed on both legs, but no matching end-of-day reconciliation entry"
+rail: raast_p2p
+break_stage: settlement_reconciliation
+signature:
+  break_type: missing_artifact
+  missing_artifact_type: recon_entry
+typical_recommendation: >
+  Funds movement (debit and credit) is already confirmed at core banking
+  and rail level — this is a reconciliation-file gap, not a failed payment.
+  Do not initiate a reversal. Escalate to settlements to check whether this
+  reference fell outside the EOD recon batch window or was dropped from the
+  settlement file, and confirm it is picked up in the next reconciliation run.
+seed_source: "internal incident history"

@@ -1,0 +1,13 @@
+id: raast-timeout-no-callback
+label: "Rail timeout — no callback received from Raast within SLA window"
+rail: raast_p2p
+break_stage: payment_rail
+signature:
+  break_type: missing_artifact
+  missing_artifact_type: response_code
+  expected_within_seconds: 30
+typical_recommendation: >
+  Confirm with 1LINK/Raast operations whether the transaction was received.
+  If unconfirmed after the SLA window, initiate a status-enquiry message
+  before advising the customer or reversing the debit hold.
+seed_source: "internal incident history"
